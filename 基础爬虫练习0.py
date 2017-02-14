@@ -1,6 +1,6 @@
 import re
 import urllib
-from urllibimport request
+from urllib import request
 #分别导入re与urllib库，并从urllib库中导出网页分析模块request
 
 link = re.compile('<h3>.*</h3>')
